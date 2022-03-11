@@ -400,15 +400,16 @@ hr {
    color: #8695A4;
 }
 
-.blog__main .title {
-   font-size: 44px;
-   line-height: 60px;
-   margin: 30px 0 55px 20px;
-}
 .blog__main .body__post-cards {
    display: -ms-grid;
    display: grid;
    -ms-grid-columns: 1fr;
    grid-template-columns: 1fr;
    grid-gap: 20px;
+}
+
+.title-not-main {
+   font-size: 44px;
+   line-height: 60px;
+   margin: 30px 0 55px 20px;
 }

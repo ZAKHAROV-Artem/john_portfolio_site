@@ -1,16 +1,14 @@
 @import 'help';
 
 .blog__main {
-    .title {
-        font-size: 44px;
-        line-height: 60px;
-        margin: 30px 0 55px 20px;
-    }
-
-
     .body__post-cards {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 20px;
     }
+}
+.title-not-main {
+    font-size: 44px;
+    line-height: 60px;
+    margin: 30px 0 55px 20px;
 }
