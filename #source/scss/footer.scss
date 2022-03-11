@@ -1,0 +1,27 @@
+@import 'help';
+
+.footer {
+    height: 182px;
+    margin:83px 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__body {}
+
+.body__images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+    img:hover{
+        transform: scale(1.2);
+    }
+}
+
+.body__privacy {
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}

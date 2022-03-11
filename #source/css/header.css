@@ -1,0 +1,27 @@
+body {
+   font-family: Heebo, sans-serif;
+   font-weight: 400;
+}
+
+.bold {
+   font-weight: 700;
+}
+
+.medium {
+   font-weight: 500;
+}
+
+.header__menu {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: end;
+       -ms-flex-pack: end;
+           justify-content: flex-end;
+}
+
+.menu__list {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+}

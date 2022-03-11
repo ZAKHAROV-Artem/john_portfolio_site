@@ -1,0 +1,12 @@
+@import 'help';
+@import 'null-style';
+body{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    color: $dark;
+}
+
+@import 'header';
+@import 'sec-rec-posts';
+@import 'sec-featured-work';
+@import 'footer';
