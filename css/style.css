@@ -10,6 +10,10 @@
    font-weight: 500;
 }
 
+.text-gray {
+   color: #8695A4;
+}
+
 *, body {
    margin: 0;
    padding: 0;
@@ -29,6 +33,11 @@ body {
    color: #21243D;
 }
 
+hr {
+   height: 0;
+   border: 1px solid #E0E0E0;
+}
+
 .super-bold {
    font-weight: 900;
 }
@@ -41,14 +50,16 @@ body {
    font-weight: 500;
 }
 
+.text-gray {
+   color: #8695A4;
+}
+
 .header {
-   margin-right: 20px;
-   margin-left: 20px;
    padding-bottom: 50px;
 }
 
 .header__menu {
-   margin: 40px 20px 0 60px;
+   margin: 40px 40px 0 60px;
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
@@ -80,6 +91,9 @@ body {
    transition: 0.2s;
    color: #FF6464;
 }
+.list__item .item__link.active {
+   color: #FF6464;
+}
 
 ._container {
    max-width: 900px;
@@ -87,6 +101,8 @@ body {
 }
 
 .header__body {
+   margin-right: 20px;
+   margin-left: 20px;
    margin-top: 120px;
    display: -ms-grid;
    display: grid;
@@ -161,6 +177,10 @@ body {
 
 .medium {
    font-weight: 500;
+}
+
+.text-gray {
+   color: #8695A4;
 }
 
 .sec-rec-posts {
@@ -246,6 +266,10 @@ body {
    font-weight: 500;
 }
 
+.text-gray {
+   color: #8695A4;
+}
+
 .sec-feat-works {
    margin-right: 20px;
    margin-left: 20px;
@@ -264,10 +288,6 @@ body {
    -ms-grid-columns: 1fr;
    grid-template-columns: 1fr;
    grid-gap: 35px;
-}
-.works__cards hr {
-   height: 0;
-   border: 1px solid #E0E0E0;
 }
 .works__cards .card {
    display: -ms-grid;
@@ -305,9 +325,6 @@ body {
    border-radius: 16px;
    color: white;
 }
-.works__cards .card__text .card__params .params__type {
-   color: #8695A4;
-}
 .works__cards .card__text .card__text {
    line-height: 24px;
 }
@@ -328,6 +345,10 @@ body {
 
 .medium {
    font-weight: 500;
+}
+
+.text-gray {
+   color: #8695A4;
 }
 
 .footer {
@@ -361,4 +382,33 @@ body {
    font-size: 14px;
    line-height: 21px;
    text-align: center;
+}
+
+.super-bold {
+   font-weight: 900;
+}
+
+.bold {
+   font-weight: 700;
+}
+
+.medium {
+   font-weight: 500;
+}
+
+.text-gray {
+   color: #8695A4;
+}
+
+.blog__main .title {
+   font-size: 44px;
+   line-height: 60px;
+   margin: 30px 0 55px 20px;
+}
+.blog__main .body__post-cards {
+   display: -ms-grid;
+   display: grid;
+   -ms-grid-columns: 1fr;
+   grid-template-columns: 1fr;
+   grid-gap: 20px;
 }

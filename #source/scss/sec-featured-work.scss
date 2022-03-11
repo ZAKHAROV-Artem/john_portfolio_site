@@ -17,11 +17,6 @@
     grid-template-columns: 1fr;
     grid-gap: 35px;
 
-    hr {
-        height: 0;
-        border: 1px solid #E0E0E0;
-    }
-
     .card {
         display: grid;
         grid-template-columns: 246px 1fr;
@@ -53,10 +48,6 @@
                 background: #142850;
                 border-radius: 16px;
                 color: white;
-            }
-
-            .params__type {
-                color: $light-gray;
             }
         }
 
